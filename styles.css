@@ -11,6 +11,19 @@ main {
 
 }
 
+.hnamecont{
+	position: static;
+
+  margin-left: 10%;
+
+  margin-top: 5%;
+
+}
+
+.hnamecont:hover {
+	
+}
+
 .hname {
   position: static;
 
