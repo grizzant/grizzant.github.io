@@ -12,39 +12,55 @@ main {
 }
 
 .hname {
-	 position: absolute;
+  position: static;
 
-  left: 10%;
+  margin-left: 10%;
 
-  top: 5%;
+  margin-top: 5%;
 
   
 
  
 }
 
+.resume{
+	padding: 10%;
+	text-align: center;
+}
 .desc {
-  position: absolute;
+  margin: auto;
+  width: 50%;
+  padding-top: 10%
 
-  left: 50%;
-
-  top: 50%;
-
-  transform: translate(-50%, -50%);
-
-  padding: 10px;
+ 
 }
 
 .pictitle {
-  position: absolute;
+  padding-top: 3%;
+  text-align: center;
 
-  left: 50%;
-
-  top: 15%;
-
-  transform: translate(-50%, -50%);
-
-  padding: 10px;
 }
 
 
+
+.gallery {
+	margin-top: 2%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+div.gallery img:hover {
+	opacity:75%;
+
+}
+
+
+
+
+div.gallery img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
