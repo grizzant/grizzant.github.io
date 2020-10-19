@@ -20,9 +20,35 @@ main {
 
 }
 
-.hnamecont:hover {
-	
+
+.flip {
+  text-decoration: none;
 }
+
+.flip span{
+  text-decoration: underline;
+}
+
+ .flip>span {
+  color: transparent;
+  float: none;
+}
+
+ .flip:hover>span {
+  color: black;
+  float: left;
+}
+
+.flip>span:first-child {
+  color: black;
+  float: left;
+}
+
+.flip:hover>span:first-child {
+  color: transparent;
+  float: none;
+}  
+
 
 .hname {
   position: static;
