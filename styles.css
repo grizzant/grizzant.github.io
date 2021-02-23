@@ -79,7 +79,12 @@ main {
   text-align: center;
 
 }
+.fitness_body {
+  padding-top: 3%;
+  padding-left: 45%;
+  text-align: left;
 
+}
 
 
 .gallery {
